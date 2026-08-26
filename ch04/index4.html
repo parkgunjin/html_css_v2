@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body{
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: white;
+      }
+      header{
+        height: 60px;
+        background-color: white;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 30px;
+      }
+      .logo{
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .logo span{
+        color: skyblue;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      nav{
+        display: flex;
+        gap: 40px;
+        padding: 0 20px;
+      }
+      nav a{
+          text-decoration: none;
+        color: #222;
+      }
+      .hero{
+        height: 350px;
+         background: linear-gradient(135deg, #eef5ff, #c9dcff);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .hero h1{
+        font-size: 40px;
+        font-weight: bold;
+      }
+      .hero span {color: #066BEC;}
+      .hero p {
+        padding: 10px;
+        font-size: 15px;
+        color: rgb(127, 124, 124);
+      }
+      .hero button{
+        margin: 20px;
+        width: 190px;
+        height: 40px;
+        border-radius: 10%;
+        background-color: #066BEC;
+        color: white;
+      }
+      .features{
+        min-height: 378px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 15px;
+        padding: 40px 16px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo"><strong>NEXT</strong><span>SULUTIONS</span></div>
+      <nav>
+        <a href="#">홈</a>
+        <a href="#">솔루션</a>
+        <a href="#">회사소개</a>
+        <a href="#">고객지원</a>
+      </nav>
+    </header>
+      <section class="hero">
+        <h1>기술로 연결하고,<br>가치로 <span>성장</span>합니다</h1>
+        <p>고객의 성공을 위한 최적의 솔루션을 제공합니다</p>
+        <button>솔루션 알아보기➡️</button>
+      </section>
+      <section class="features">
+        <div class="card">
+          <div class="icon">🚀</div>
+          <h2>빠른실행력</h2>
+          <hr />
+          <p>빠르고 효율적인 실행으로 비즈니스의 속도를 높입니다.</p>
+        </div>
+        <div class="card">
+          <div class="icon">🛡️</div>
+          <h2>신뢰할 수 있는 기출</h2>
+          <hr />
+          <p>검증된 기술력과 보안으로 안정적인 서비스를 보장합니다.</p>
+        </div>
+        <div class="card">
+        <div
+           class="icon">👨‍👩‍👧‍👦<div>
+          <h2>함께 만드는 미래</h2>
+          <hr />
+          <p>고객과 함께 성장하며 지속 가능한 미래를 만듭니다.</p>
+        </div>
+        <footer>2026 NEXT SULUTIONS All rights reserved</footer>
+      </section>
+  </body>
+</html>
